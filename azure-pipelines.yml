@@ -22,7 +22,7 @@ steps:
   inputs:
     command: buildAndPush
     repository: $(imageName)
-    dockerfile: Dockerfile
+    dockerfile: app/Dockerfile
     containerRegistry: DockerServiceConnection
     tags: $(tag)
 
