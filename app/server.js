@@ -7,7 +7,7 @@ const HOST = '0.0.0.0';
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello world\n');
+  res.send('Bienvenue sur notre démo du mspr-i1-tpre716-2020\n');
 });
 
 app.listen(PORT, HOST);
