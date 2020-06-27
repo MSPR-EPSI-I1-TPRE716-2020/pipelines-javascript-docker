@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "jest",
-    "coverage": "jest --coverage --coverageReporters=cobertura"
+    "coverage": "jest --coverage --coverageReporters=cobertura",
+    "build": "npm run build"
   },
   "dependencies": {
     "express": "^4.16.4",
