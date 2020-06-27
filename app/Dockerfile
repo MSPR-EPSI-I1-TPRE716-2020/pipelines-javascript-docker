@@ -8,4 +8,5 @@ RUN npm ci --only=production
 COPY . .
 
 EXPOSE 8080
+CMD ['npm', 'install', 'npm@latest', '-g']
 CMD [ "npm", "start" ]
