@@ -6,7 +6,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage --coverageReporters=cobertura"
   },
   "dependencies": {
     "express": "^4.16.4",
