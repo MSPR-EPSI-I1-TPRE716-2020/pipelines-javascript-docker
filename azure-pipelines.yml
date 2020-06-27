@@ -25,7 +25,6 @@ steps:
     dockerfile: app/Dockerfile
     containerRegistry: DockerServiceConnection
     tags: $(tag)
-- task: tes
 
 - task: NodeTool@0
   inputs:
