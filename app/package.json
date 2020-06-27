@@ -8,7 +8,7 @@
     "start": "node server.js",
     "test": "jest",
     "coverage": "jest --coverage --coverageReporters=cobertura",
-    "build": "node ./build/server.js"
+    "build": "webpack"
   },
   "dependencies": {
     "express": "^4.16.4",
